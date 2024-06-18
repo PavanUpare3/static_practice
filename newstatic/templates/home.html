@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Homepage-For Nature
+{% endblock %}
+
+{% block content %}
+<header>
+    <h1>Welcome to Our Website</h1>
+</header>
+
+<div class="container">
+    <h2>Home Page</h2>
+    <p>This is the home page of our simple website. Feel free to browse around and learn more about us.</p>
+</div>
+<footer>
+    <p>&copy; 2024 Our Website</p>
+</footer>
+
+{% endblock %}
+
+
+
+{% comment %} 
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Home Page</h2>
+        <p>This is the home page of our simple website. Feel free to browse around and learn more about us.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Our Website</p>
+    </footer>
+</body>
+</html> {% endcomment %}
